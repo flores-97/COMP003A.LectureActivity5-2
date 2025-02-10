@@ -17,7 +17,7 @@ namespace COMP003A.LectureActivity5_2
             //deposit and withdraw money
             myAccount.Deposit(150.00);
             myAccount.Withdraw(50.00);
-            myAccount.Withdraw(700.00);//should print insufficent funds message
+            myAccount.Withdraw(700.00);//should print insufficent funds message but does not. Instead displays ($100.00)
         }
     }
     internal class BankAccount
